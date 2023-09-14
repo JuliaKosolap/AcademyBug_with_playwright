@@ -2,7 +2,7 @@ This document explains how to setup local environment and run tests:
 1. Install Java 17, also download JDK 17 and set path to the JDK bin in system variables
 2. Download Maven 3.9.4 (bin) and set path to it in system variables
 3. Download Allure 2.24.0 and set path to it in system variables
-4. Download the project with all dependencies from GitHub: https://github.com/JuliaKosolap/AcademyBugs_with_playwright
+4. Download the project with all dependencies from GitHub: https://github.com/JuliaKosolap/AcademyBug_with_playwright
 5. Open terminal and run the following command: mvn clean test
 6. After tests running is completed run Allure reports with the following command:
 allure serve allure-results
